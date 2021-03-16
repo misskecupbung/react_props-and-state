@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Tugas4 from './Tugas4';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App (props) {
+	return (
+  		<div>
+  		<Tugas4 pengirim="Ana" content="Halo! saya Ana." />
+  		<Tugas4 pengirim="Dwi" content="Halo Ana, saya Dwi" />
+  		<Tugas4 pengirim="Ana" content="Apa kabar Dwi?" />
+  		<Tugas4 pengirim="Dwi" content="Saya baik, terima kasih!" />
+  		</div>
+	);
 }
 
 export default App;

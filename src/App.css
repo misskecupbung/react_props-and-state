@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.warna{
+  background: #fbe6c2;
+  border: 2px red;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: lem;
+}
